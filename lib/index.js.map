@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/Components/index.js"],"names":["Catalog"],"mappings":"AAAA,OAAOA,OAAP,MAAoB,WAApB;;AAIA,SAASA,OAAT","file":"index.js","sourcesContent":["import Catalog from './Catalog'\n\n\n\nexport  {Catalog};\n"]}

@@ -1,0 +1,21 @@
+.Product-image {
+  max-width: 175px;
+  height: auto;
+  width:100%;
+}
+
+.Product-title{
+  text-align: left;
+  font: 400 14px/1.2 'Ropa Sans', sans-serif;
+}
+
+.Product-price{
+  text-align: center;
+  color: #6cadc8;
+  font-size:13px;
+  display: block;
+  margin-top: 3px;
+  min-height: 32px;
+  line-height: 15px;
+  font: 400 14px/1.2 'Ropa Sans', sans-serif;
+}
