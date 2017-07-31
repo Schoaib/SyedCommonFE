@@ -1,6 +1,7 @@
 {
   "name": "syedcommonfe",
-  "version": "0.1.1",
+  "version": "0.1.2",
+  "description":"This package is used to serve as common forntend for SyedBrand1FE and SyedBrand2FE",
   "main": "lib/index.js",
   "author": {
     "name": "Syed Shoaib",

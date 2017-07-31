@@ -55,7 +55,7 @@ class CatalogFilter extends React.Component {
                   {(this.state.hover === color || this.state.searchedColor === color) && <i><FontAwesome className='fa fa-check'/></i>
                   }
                   <span className="Color-image">
-                    <img className="Img" src={"//prod2.mnpcdn.ae/small_light(cw=70,ch=70,dw=70,dh=70,of=webp,q=90)/media/attribute/swatch" + this.state.colors[color]} alt={color}/>
+                    <img className="Img" src={"//prod2.atgcdn.ae/small_light(cw=70,ch=70,dw=70,dh=70,of=webp,q=90)/media/attribute/swatch" + this.state.colors[color]} alt={color}/>
                   </span>
                 </a>
               </div>
