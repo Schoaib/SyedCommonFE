@@ -19,10 +19,7 @@ SyedCommonFE/
       App.js
       App.test.js
     Components/
-      Catalog/
-        styles.css
-        index.js
-      CatalogFilter/
+      ColorFilterItem/
         styles.css
         index.js
       CatalogProducts/
@@ -30,8 +27,6 @@ SyedCommonFE/
         index.js
       CatalogProdcut/
         styles.css
-        index.js
-      API/
         index.js
     styles.css
     index.js
@@ -61,9 +56,34 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 
-## Catalog Component
+## CatalogProducts
 
-The project creates a react based catalog component to render the products catalog.
+CatalogProducts creates a container to render the products catalog.<br>
+
+Required props for CatalogProducts are :<br>
+Path to the product images ==>  productImagePath: PropTypes.string.isRequired<br>
+Products Array [{name,price,image}]==> products: PropTypes.array.isRequired
+
+## CatalogProduct
+
+CatalogProduct creates a product item to render product information.<br>
+
+Required props for CatalogProduct are :<br>
+Path to the product images ==>  productImagePath: PropTypes.string.isRequired<br>
+Product {name,price,image} ==> product: PropTypes.object.isRequired
+
+## ColorFilterItem
+
+ColorFilterItem creates a color item to render color selection anchor.<br>
+
+Required props for CatalogProduct are :<br>
+Name of the color ==> color: PropTypes.string.isRequired<br>
+Color Code e.g '#fff' or image ==> colorCode: PropTypes.string.isRequired<br>
+Handler for onClick event ==> onClick: PropTypes.func.isRequired<br>
+Handler for onMouseEnter event ==> onMouseEnter: PropTypes.func.isRequired<br>
+Handler for onMouseLeave event ==> onMouseLeave: PropTypes.func.isRequired<br>
+Flag to handle to show color selection ==>  showIcon: PropTypes.bool.isRequired<br>
+Flag to handle to show image instead of default color background ==> showImage: PropTypes.bool.isRequired
 
 In the project directory, you can run:
 
@@ -71,10 +91,6 @@ In the project directory, you can run:
 
 This step will create a lib folder with all the required files, than can be used as local npm or can published on npm.
 
-
-Required props for catalog componets are :<br>
-Path to the backend APi ==> backendApi: PropTypes.string.isRequired<br>
-Path to the product images ==> productImagePath: PropTypes.string.isRequired
 
 These files needed to be added in your index.html to support google fonts and Font Awesome <br>
 ```javascript

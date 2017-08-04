@@ -1,0 +1,53 @@
+.Filter-Div {
+  display: inline-block;
+  position: relative;
+    cursor:pointer;
+}
+
+.Color-filter {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border-radius: 50%;
+  border: 1px solid #dedede;
+  /*background-color: black;*/
+  margin-bottom: 10px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.Color-filter i {
+  background-color: rgba(255, 255, 255, .9);
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  top: 2px;
+  /*left: 2px;*/
+  border: none;
+  /*display: none;*/
+  position: relative;
+  z-index: 2;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.Color-image {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.Img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
